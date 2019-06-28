@@ -9,7 +9,6 @@ body {
     background: hsl(240, 45%, 10%);
     height: 100px;
     width: 100%;
-    position: fixed;
     justify-content: space-between;
 }
 
@@ -28,6 +27,7 @@ body {
 
 .title {
     text-align: center;
+    margin: 24px;
 }
 
 .subnavbar>.link {

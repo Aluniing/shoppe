@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: Roboto;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background: hsl(240, 45%, 10%);
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    justify-content: space-between;
+}
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.link {
+    font-size: 24px;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.title {
+    text-align: center;
+}
+
+.subnavbar>.link {
+    font-size: 24px;
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.card {
+    display: flex;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    padding: 16px 24px;
+    border-radius: 7px;
+}
+
+.btn-primary {
+    color: white;
+    background: hsl(240, 45%, 10%);
+}
+
+.btn-light {
+    color: black;
+    background: hsl(0, 0%, 85%)
+}
+
+.navbar>.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: space-between;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
